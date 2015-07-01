@@ -29,9 +29,9 @@
         define('DB_PASSWORD', '');
     } else {
         /** Local environment MySQL login info */
-        define('DB_HOST', '127.0.0.1');
-        define('DB_USER', 'root');
-        define('DB_PASSWORD', '');
+        define('DB_HOST', '173.194.245.230');
+        define('DB_USER', 'tyolab_blog');
+        define('DB_PASSWORD', 'ar33323$%');
     }
 
     // Determine HTTP or HTTPS, then set WP_SITEURL and WP_HOME
