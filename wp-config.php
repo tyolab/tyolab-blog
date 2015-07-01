@@ -19,19 +19,19 @@
 
     // ** MySQL settings - You can get this info from your web host ** //
     /** The name of the database for WordPress */
-    define('DB_NAME', 'wordpress_db');
+    define('DB_NAME', 'tyolab_blog');
 
     if (isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
         /** Live environment Cloud SQL login and SITE_URL info */
         /** Note that from App Engine, the password is not required, so leave it blank here */
-        define('DB_HOST', ':/cloudsql/your-project-id:wordpress');
+        define('DB_HOST', ':/cloudsql/tyo-lab-databases:hosting1');
         define('DB_USER', 'root');
         define('DB_PASSWORD', '');
     } else {
         /** Local environment MySQL login info */
         define('DB_HOST', '127.0.0.1');
         define('DB_USER', 'root');
-        define('DB_PASSWORD', 'password');
+        define('DB_PASSWORD', '');
     }
 
     // Determine HTTP or HTTPS, then set WP_SITEURL and WP_HOME
