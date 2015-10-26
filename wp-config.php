@@ -29,7 +29,7 @@
         define('DB_PASSWORD', '');
     } else {
         /** Local environment MySQL login info */
-        define('DB_HOST', '173.194.245.230');
+        define('DB_HOST', '173.194.226.139');
         define('DB_USER', 'tyolab_blog');
         define('DB_PASSWORD', 'ar33323$%');
     }
@@ -59,14 +59,14 @@
      *
      * @since 2.6.0
      */
-    define('AUTH_KEY',         'put your unique phrase here');
-    define('SECURE_AUTH_KEY',  'put your unique phrase here');
-    define('LOGGED_IN_KEY',    'put your unique phrase here');
-    define('NONCE_KEY',        'put your unique phrase here');
-    define('AUTH_SALT',        'put your unique phrase here');
-    define('SECURE_AUTH_SALT', 'put your unique phrase here');
-    define('LOGGED_IN_SALT',   'put your unique phrase here');
-    define('NONCE_SALT',       'put your unique phrase here');
+    define('AUTH_KEY',         'c2r23r4r');
+    define('SECURE_AUTH_KEY',  'wev444&&WLGDWyf');
+    define('LOGGED_IN_KEY',    'zlhH%@L2fwwj');
+    define('NONCE_KEY',        'r231233');
+    define('AUTH_SALT',        'adfawwfewr2#!#');
+    define('SECURE_AUTH_SALT', 'wfqe');
+    define('LOGGED_IN_SALT',   'p;3jkf3h;hf');
+    define('NONCE_SALT',       'pw4t3');
 
     /**#@-*/
 
